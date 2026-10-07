@@ -1,0 +1,333 @@
+hospitalization_id,patient_id,admission_date,discharge_date,reason
+1,1,2021-06-14,2021-06-19,Pneumonie
+2,9,2023-01-26,2023-01-28,Fracture
+3,12,2025-08-08,2025-08-11,Exacerbation d'asthme
+4,18,2022-09-28,2022-10-04,Pneumonie
+5,22,2025-10-12,2025-10-15,Exacerbation d'asthme
+6,30,2022-10-08,2022-10-14,Gastro-entérite
+7,31,2023-04-02,2023-04-04,Fracture
+8,65,2024-05-01,2024-05-03,Pneumonie
+9,66,2025-06-29,2025-07-02,Bronchiolite
+10,67,2025-09-14,2025-09-21,Exacerbation d'asthme
+11,73,2024-01-23,2024-01-30,Pneumonie
+12,79,2022-03-21,2022-03-27,Appendicectomie
+13,86,2022-01-31,2022-02-06,Exacerbation d'asthme
+14,90,2024-02-23,2024-03-01,Exacerbation d'asthme
+15,90,2025-11-09,2025-11-13,Exacerbation d'asthme
+16,90,2025-03-09,2025-03-11,Exacerbation d'asthme
+17,93,2019-01-06,2019-01-08,Exacerbation d'asthme
+18,98,2025-02-07,2025-02-13,Exacerbation d'asthme
+19,101,2025-07-09,2025-07-12,Bronchiolite
+20,116,2025-05-15,2025-05-16,Bronchiolite
+21,127,2025-08-12,2025-08-15,Exacerbation d'asthme
+22,127,2025-05-20,2025-05-24,Exacerbation d'asthme
+23,134,2025-04-22,2025-04-26,Exacerbation d'asthme
+24,141,2024-12-03,2024-12-06,Exacerbation d'asthme
+25,166,2022-06-23,2022-06-28,Exacerbation d'asthme
+26,167,2022-07-02,2022-07-04,Appendicectomie
+27,171,2021-10-25,2021-10-30,Fracture
+28,179,2024-11-16,2024-11-18,Exacerbation d'asthme
+29,179,2025-12-06,2025-12-13,Exacerbation d'asthme
+30,183,2019-09-08,2019-09-14,Exacerbation d'asthme
+31,185,2025-10-17,2025-10-24,Bronchiolite
+32,201,2025-03-27,2025-04-03,Exacerbation d'asthme
+33,205,2025-05-17,2025-05-20,Exacerbation d'asthme
+34,208,2020-12-01,2020-12-02,Exacerbation d'asthme
+35,212,2025-01-07,2025-01-13,Exacerbation d'asthme
+36,218,2019-07-18,2019-07-22,Bronchiolite
+37,235,2024-09-14,2024-09-15,Exacerbation d'asthme
+38,255,2024-12-13,2024-12-11,Exacerbation d'asthme
+39,261,2023-06-15,2023-06-22,Bronchiolite
+40,262,2024-06-27,2024-06-30,Exacerbation d'asthme
+41,277,2024-09-30,2024-10-05,Exacerbation d'asthme
+42,279,2019-05-22,2019-05-27,Fracture
+43,280,2021-02-26,2021-02-28,Exacerbation d'asthme
+44,280,2023-07-26,2023-07-31,Exacerbation d'asthme
+45,282,2020-12-02,2020-12-05,Exacerbation d'asthme
+46,282,2021-08-14,2021-08-20,Pneumonie
+47,284,2025-08-22,2025-08-23,Appendicectomie
+48,290,2025-11-05,2025-11-08,Appendicectomie
+49,308,2023-10-06,2023-10-12,Exacerbation d'asthme
+50,309,2024-06-11,2024-06-12,Exacerbation d'asthme
+51,309,2024-06-28,2024-06-30,Exacerbation d'asthme
+52,312,2025-08-08,2025-08-12,Exacerbation d'asthme
+53,332,2025-04-09,2025-04-12,Appendicectomie
+54,352,2020-05-16,2020-05-17,Exacerbation d'asthme
+55,371,2022-04-25,2022-04-26,Exacerbation d'asthme
+56,381,2019-10-07,2019-10-13,Gastro-entérite
+57,395,2023-06-17,2023-06-20,Exacerbation d'asthme
+58,401,2020-06-29,2020-07-05,Fracture
+59,409,2021-05-02,2021-05-06,Pneumonie
+60,411,2022-10-31,2022-11-06,Gastro-entérite
+61,415,2020-04-22,2020-04-24,Appendicectomie
+62,421,2025-12-20,2025-12-21,Exacerbation d'asthme
+63,428,2025-01-20,2025-01-23,Bronchiolite
+64,437,2024-12-02,2024-12-06,Fracture
+65,451,2019-08-01,2019-08-05,Exacerbation d'asthme
+66,470,2024-11-26,2024-11-28,Appendicectomie
+67,477,2023-09-19,2023-09-21,Exacerbation d'asthme
+68,486,2020-12-17,2020-12-20,Exacerbation d'asthme
+69,487,2022-02-22,2022-02-23,Exacerbation d'asthme
+70,500,2024-12-03,2024-12-10,Gastro-entérite
+71,539,2022-10-06,2022-10-09,Exacerbation d'asthme
+72,557,2022-07-15,2022-07-12,Appendicectomie
+73,569,2024-01-19,2024-01-26,Bronchiolite
+74,573,2019-02-17,2019-02-19,Bronchiolite
+75,603,2022-06-06,2022-06-10,Appendicectomie
+76,608,2025-11-23,2025-11-29,Exacerbation d'asthme
+77,622,2019-08-15,2019-08-22,Appendicectomie
+78,634,2021-07-22,2021-07-28,Appendicectomie
+79,642,2020-05-09,2020-05-12,Gastro-entérite
+80,646,2021-05-12,2021-05-17,Gastro-entérite
+81,658,2024-12-03,2024-12-08,Exacerbation d'asthme
+82,659,2025-07-01,2025-07-04,Gastro-entérite
+83,673,2021-11-02,2021-11-08,Fracture
+84,678,2025-08-03,2025-08-05,Exacerbation d'asthme
+85,681,2023-07-18,2023-07-22,Exacerbation d'asthme
+86,685,2020-10-14,2020-10-15,Fracture
+87,687,2025-07-05,2025-07-04,Exacerbation d'asthme
+88,687,2025-09-05,2025-09-06,Exacerbation d'asthme
+89,696,2021-04-28,2021-05-05,Appendicectomie
+90,704,2024-09-15,2024-09-22,Exacerbation d'asthme
+91,706,2023-06-20,2023-06-23,Appendicectomie
+92,730,2022-08-13,2022-08-15,Gastro-entérite
+93,733,2023-12-06,2023-12-13,Appendicectomie
+94,737,2020-09-19,2020-09-26,Exacerbation d'asthme
+95,739,2024-08-07,2024-08-13,Exacerbation d'asthme
+96,744,2023-12-14,2023-12-18,Fracture
+97,750,2023-06-22,2023-06-28,Gastro-entérite
+98,760,2025-08-27,2025-08-31,Exacerbation d'asthme
+99,765,2024-01-17,2024-01-20,Exacerbation d'asthme
+100,766,2025-04-21,2025-04-24,Appendicectomie
+101,767,2025-02-08,2025-02-12,Exacerbation d'asthme
+102,769,2024-11-29,2024-12-03,Exacerbation d'asthme
+103,778,2023-03-15,2023-03-20,Exacerbation d'asthme
+104,782,2024-02-20,2024-02-23,Appendicectomie
+105,791,2024-04-18,2024-04-21,Pneumonie
+106,793,2022-06-15,2022-06-18,Pneumonie
+107,806,2025-03-21,2025-03-23,Pneumonie
+108,824,2025-05-28,2025-06-01,Exacerbation d'asthme
+109,845,2023-08-02,2023-08-06,Exacerbation d'asthme
+110,848,2019-12-21,2019-12-18,Exacerbation d'asthme
+111,857,2024-12-27,2025-01-01,Exacerbation d'asthme
+112,863,2020-06-24,2020-07-01,Exacerbation d'asthme
+113,869,2024-08-20,2024-08-24,Appendicectomie
+114,879,2022-12-26,2023-01-01,Appendicectomie
+115,881,2020-03-12,2020-03-15,Appendicectomie
+116,886,2019-10-19,2019-10-22,Exacerbation d'asthme
+117,900,2021-04-16,2021-04-22,Fracture
+118,907,2024-03-09,2024-03-15,Exacerbation d'asthme
+119,924,2023-08-25,2023-08-28,Exacerbation d'asthme
+120,937,2021-08-29,2021-09-02,Exacerbation d'asthme
+121,940,2022-07-12,2022-07-13,Exacerbation d'asthme
+122,943,2019-10-10,2019-10-11,Exacerbation d'asthme
+123,943,2024-09-27,2024-09-29,Exacerbation d'asthme
+124,961,2022-08-21,2022-08-26,Bronchiolite
+125,964,2023-07-02,2023-07-08,Fracture
+126,970,2025-09-02,2025-09-08,Exacerbation d'asthme
+127,978,2025-08-09,2025-08-15,Exacerbation d'asthme
+128,985,2025-09-15,2025-09-22,Exacerbation d'asthme
+129,1006,2022-08-02,2022-08-09,Exacerbation d'asthme
+130,1006,2025-04-17,2025-04-22,Exacerbation d'asthme
+131,1012,2025-12-24,2025-12-31,Exacerbation d'asthme
+132,1020,2025-12-07,2025-12-14,Fracture
+133,1025,2020-03-01,2020-03-02,Bronchiolite
+134,1035,2025-03-24,2025-03-31,Exacerbation d'asthme
+135,1053,2022-03-03,2022-03-10,Appendicectomie
+136,1056,2024-07-09,2024-07-10,Appendicectomie
+137,1068,2024-11-29,2024-12-04,Exacerbation d'asthme
+138,1084,2025-01-19,2025-01-26,Exacerbation d'asthme
+139,1102,2022-07-15,2022-07-22,Pneumonie
+140,1114,2025-01-10,2025-01-12,Exacerbation d'asthme
+141,1128,2024-10-02,2024-10-08,Fracture
+142,1143,2025-10-21,2025-10-28,Exacerbation d'asthme
+143,1146,2024-11-09,2024-11-16,Exacerbation d'asthme
+144,1157,2025-07-30,2025-08-01,Exacerbation d'asthme
+145,1158,2019-07-08,2019-07-14,Fracture
+146,1162,2025-08-22,2025-08-29,Exacerbation d'asthme
+147,1167,2021-05-08,2021-05-09,Exacerbation d'asthme
+148,1172,2025-11-04,2025-11-09,Exacerbation d'asthme
+149,1177,2025-03-30,2025-04-05,Exacerbation d'asthme
+150,1177,2025-01-11,2025-01-13,Exacerbation d'asthme
+151,1186,2024-11-07,2024-11-08,Appendicectomie
+152,1187,2025-04-24,2025-04-27,Exacerbation d'asthme
+153,1192,2024-07-19,2024-07-26,Bronchiolite
+154,1193,2023-04-29,2023-04-24,Exacerbation d'asthme
+155,1197,2023-10-16,2023-10-20,Exacerbation d'asthme
+156,1197,2024-11-11,2024-11-14,Exacerbation d'asthme
+157,1206,2023-04-15,2023-04-16,Exacerbation d'asthme
+158,1236,2025-02-26,2025-03-05,Fracture
+159,1237,2023-05-26,2023-05-30,Exacerbation d'asthme
+160,1251,2025-01-11,2025-01-16,Exacerbation d'asthme
+161,1258,2025-10-21,2025-10-23,Exacerbation d'asthme
+162,1274,2020-03-11,2020-03-13,Bronchiolite
+163,1306,2020-12-18,2020-12-20,Gastro-entérite
+164,1309,2025-11-09,2025-11-03,Gastro-entérite
+165,1313,2023-09-04,2023-09-05,Gastro-entérite
+166,1356,2023-03-31,2023-04-03,Appendicectomie
+167,1361,2019-10-27,2019-11-02,Pneumonie
+168,1366,2023-05-02,2023-05-06,Bronchiolite
+169,1374,2023-02-24,2023-03-01,Exacerbation d'asthme
+170,1397,2025-07-24,2025-07-30,Gastro-entérite
+171,1398,2022-07-07,2022-07-09,Gastro-entérite
+172,1399,2025-05-03,2025-05-07,Exacerbation d'asthme
+173,1401,2025-02-20,2025-02-21,Fracture
+174,1402,2024-04-04,2024-04-06,Pneumonie
+175,1405,2023-01-18,2023-01-23,Exacerbation d'asthme
+176,1405,2023-07-16,2023-07-17,Exacerbation d'asthme
+177,1405,2024-06-29,2024-07-03,Exacerbation d'asthme
+178,1407,2023-11-06,2023-11-07,Gastro-entérite
+179,1418,2022-09-21,2022-09-25,Exacerbation d'asthme
+180,1418,2023-05-15,2023-05-17,Appendicectomie
+181,1427,2023-10-06,2023-10-07,Exacerbation d'asthme
+182,1438,2022-05-05,2022-05-07,Fracture
+183,1447,2025-07-10,2025-07-14,Fracture
+184,1448,2024-01-16,2024-01-21,Bronchiolite
+185,1454,2024-05-02,2024-05-08,Exacerbation d'asthme
+186,1458,2020-04-02,2020-04-09,Exacerbation d'asthme
+187,1458,2023-02-08,2023-02-12,Exacerbation d'asthme
+188,1464,2023-01-05,2023-01-07,Exacerbation d'asthme
+189,1488,2025-05-18,2025-05-22,Exacerbation d'asthme
+190,1496,2025-06-27,2025-07-03,Exacerbation d'asthme
+191,1505,2024-07-27,2024-08-03,Exacerbation d'asthme
+192,1510,2024-01-03,2024-01-08,Bronchiolite
+193,1514,2023-06-28,2023-07-03,Exacerbation d'asthme
+194,1518,2020-06-16,2020-06-18,Exacerbation d'asthme
+195,1520,2024-09-20,2024-09-21,Pneumonie
+196,1524,2025-05-28,2025-05-30,Exacerbation d'asthme
+197,1524,2020-03-28,2020-04-04,Appendicectomie
+198,1528,2021-12-18,2021-12-22,Appendicectomie
+199,1537,2025-09-08,2025-09-15,Exacerbation d'asthme
+200,1542,2023-05-06,2023-05-09,Exacerbation d'asthme
+201,1551,2021-05-30,2021-06-02,Bronchiolite
+202,1555,2021-09-12,2021-09-15,Bronchiolite
+203,1557,2024-12-21,2024-12-28,Bronchiolite
+204,1559,2025-08-10,2025-08-17,Exacerbation d'asthme
+205,1562,2022-11-28,2022-12-04,Exacerbation d'asthme
+206,1569,2024-12-10,2024-12-17,Exacerbation d'asthme
+207,1579,2024-11-26,2024-11-28,Pneumonie
+208,1583,2025-03-12,2025-03-14,Appendicectomie
+209,1590,2024-09-19,2024-09-22,Bronchiolite
+210,1596,2024-09-25,2024-09-29,Pneumonie
+211,1597,2024-09-21,2024-09-28,Gastro-entérite
+212,1599,2025-07-18,2025-07-21,Exacerbation d'asthme
+213,1608,2025-12-08,2025-12-15,Bronchiolite
+214,1619,2024-11-20,2024-11-25,Exacerbation d'asthme
+215,1637,2025-05-20,2025-05-23,Bronchiolite
+216,1639,2025-06-25,2025-06-29,Exacerbation d'asthme
+217,1639,2023-12-19,2023-12-23,Gastro-entérite
+218,1640,2023-05-23,2023-05-30,Exacerbation d'asthme
+219,1643,2023-01-01,2023-01-04,Exacerbation d'asthme
+220,1646,2024-03-27,2024-04-01,Pneumonie
+221,1654,2025-01-31,2025-02-03,Exacerbation d'asthme
+222,1663,2021-04-10,2021-04-15,Pneumonie
+223,1675,2023-05-20,2023-05-24,Appendicectomie
+224,1677,2021-03-14,2021-03-20,Exacerbation d'asthme
+225,1679,2023-11-16,2023-11-21,Gastro-entérite
+226,1681,2022-12-02,2022-12-09,Bronchiolite
+227,1688,2023-01-28,2023-01-31,Exacerbation d'asthme
+228,1688,2024-05-16,2024-05-22,Exacerbation d'asthme
+229,1692,2019-12-16,2019-12-19,Appendicectomie
+230,1695,2021-05-10,2021-05-13,Exacerbation d'asthme
+231,1697,2024-11-14,2024-11-16,Gastro-entérite
+232,1698,2023-05-09,2023-05-10,Exacerbation d'asthme
+233,1698,2024-11-04,2024-11-07,Exacerbation d'asthme
+234,1708,2019-04-08,2019-04-10,Bronchiolite
+235,1709,2022-11-23,2022-11-24,Exacerbation d'asthme
+236,1722,2024-04-16,2024-04-21,Bronchiolite
+237,1723,2023-01-10,2023-01-11,Appendicectomie
+238,1728,2024-12-25,2024-12-26,Exacerbation d'asthme
+239,1730,2020-10-08,2020-10-09,Exacerbation d'asthme
+240,1735,2025-03-06,2025-03-07,Exacerbation d'asthme
+241,1757,2022-10-31,2022-11-07,Pneumonie
+242,1761,2024-01-05,2024-01-08,Exacerbation d'asthme
+243,1761,2020-12-24,2020-12-27,Appendicectomie
+244,1768,2025-05-24,2025-05-31,Exacerbation d'asthme
+245,1777,2020-06-18,2020-06-24,Gastro-entérite
+246,1778,2024-07-24,2024-07-25,Exacerbation d'asthme
+247,1789,2023-09-30,2023-10-02,Pneumonie
+248,1798,2023-06-30,2023-07-05,Exacerbation d'asthme
+249,1802,2021-06-10,2021-06-15,Bronchiolite
+250,1811,2020-02-28,2020-03-05,Appendicectomie
+251,1815,2021-08-03,2021-08-10,Appendicectomie
+252,1818,2025-05-30,2025-06-03,Exacerbation d'asthme
+253,1832,2019-06-15,2019-06-18,Pneumonie
+254,1839,2023-05-01,2023-05-04,Fracture
+255,1845,2025-07-08,2025-07-10,Exacerbation d'asthme
+256,1845,2020-01-08,2020-01-14,Appendicectomie
+257,1851,2025-05-26,2025-05-29,Exacerbation d'asthme
+258,1851,2024-11-22,2024-11-25,Exacerbation d'asthme
+259,1853,2023-08-24,2023-08-28,Exacerbation d'asthme
+260,1853,2024-11-14,2024-11-18,Exacerbation d'asthme
+261,1854,2023-08-21,2023-08-22,Exacerbation d'asthme
+262,1858,2021-12-22,2021-12-28,Appendicectomie
+263,1866,2022-05-22,2022-05-29,Exacerbation d'asthme
+264,1908,2020-06-15,2020-06-16,Fracture
+265,1924,2024-10-03,2024-10-08,Appendicectomie
+266,1937,2023-03-03,2023-03-05,Bronchiolite
+267,1953,2025-03-15,2025-03-19,Gastro-entérite
+268,1956,2022-09-26,2022-09-30,Exacerbation d'asthme
+269,1988,2022-09-10,2022-09-16,Pneumonie
+270,2011,2025-10-01,2025-10-03,Exacerbation d'asthme
+271,2012,2024-12-29,2025-01-05,Exacerbation d'asthme
+272,2026,2025-08-07,2025-08-09,Exacerbation d'asthme
+273,2035,2025-05-16,2025-05-23,Bronchiolite
+274,2045,2025-04-11,2025-04-12,Exacerbation d'asthme
+275,2046,2021-05-08,2021-05-12,Pneumonie
+276,2056,2019-06-10,2019-06-16,Gastro-entérite
+277,2087,2024-04-29,2024-05-04,Pneumonie
+278,2090,2025-11-09,2025-11-15,Pneumonie
+279,2091,2025-12-09,2025-12-10,Gastro-entérite
+280,2092,2021-03-29,2021-04-04,Exacerbation d'asthme
+281,2105,2023-08-08,2023-08-10,Exacerbation d'asthme
+282,2106,2025-02-16,2025-02-23,Exacerbation d'asthme
+283,2107,2024-09-09,2024-09-11,Exacerbation d'asthme
+284,2123,2021-11-06,2021-11-09,Exacerbation d'asthme
+285,2135,2024-06-14,2024-06-21,Fracture
+286,2141,2024-07-23,2024-07-26,Exacerbation d'asthme
+287,2145,2023-06-18,2023-06-19,Gastro-entérite
+288,2147,2025-05-10,2025-05-17,Fracture
+289,2153,2024-07-21,2024-07-24,Pneumonie
+290,2154,2024-04-28,2024-05-01,Exacerbation d'asthme
+291,2158,2019-05-24,2019-05-26,Exacerbation d'asthme
+292,2181,2025-12-04,2025-12-10,Exacerbation d'asthme
+293,2189,2022-11-26,2022-11-29,Exacerbation d'asthme
+294,2194,2025-04-02,2025-04-09,Exacerbation d'asthme
+295,2205,2025-09-23,2025-09-29,Exacerbation d'asthme
+296,2208,2025-11-25,2025-11-28,Exacerbation d'asthme
+297,2210,2024-01-11,2024-01-18,Bronchiolite
+298,2222,2023-04-11,2023-04-12,Exacerbation d'asthme
+299,2231,2021-08-17,2021-08-20,Pneumonie
+300,2246,2023-04-29,2023-05-05,Pneumonie
+301,2251,2024-02-05,2024-02-06,Gastro-entérite
+302,2263,2024-03-24,2024-03-27,Exacerbation d'asthme
+303,2263,2025-10-12,2025-10-15,Exacerbation d'asthme
+304,2268,2025-10-28,2025-11-03,Appendicectomie
+305,2281,2025-11-13,2025-11-15,Exacerbation d'asthme
+306,2311,2025-11-05,2025-11-10,Exacerbation d'asthme
+307,2336,2021-04-05,2021-04-06,Exacerbation d'asthme
+308,2336,2025-02-08,2025-02-14,Exacerbation d'asthme
+309,2350,2019-05-25,2019-05-28,Exacerbation d'asthme
+310,2350,2024-09-30,2024-10-04,Exacerbation d'asthme
+311,2359,2022-10-12,2022-10-17,Exacerbation d'asthme
+312,2371,2021-11-26,2021-11-30,Exacerbation d'asthme
+313,2375,2025-03-16,2025-03-17,Fracture
+314,2377,2019-10-30,2019-11-06,Exacerbation d'asthme
+315,2381,2021-07-25,2021-07-31,Pneumonie
+316,2386,2021-10-13,2021-10-20,Fracture
+317,2387,2023-09-22,2023-09-27,Exacerbation d'asthme
+318,2388,2022-05-26,2022-06-02,Fracture
+319,2400,2025-10-26,2025-10-29,Exacerbation d'asthme
+320,2402,2024-10-05,2024-10-06,Exacerbation d'asthme
+321,2402,2024-02-14,2024-02-15,Exacerbation d'asthme
+322,2425,2024-02-09,2024-02-12,Gastro-entérite
+323,2429,2025-12-15,2025-12-19,Appendicectomie
+324,2431,2025-07-17,2025-07-24,Exacerbation d'asthme
+325,2447,2025-08-23,2025-08-24,Exacerbation d'asthme
+326,2447,2025-12-11,2025-12-14,Exacerbation d'asthme
+327,2453,2020-11-06,2020-11-12,Exacerbation d'asthme
+328,2453,2020-08-24,2020-08-25,Fracture
+329,2480,2022-05-01,2022-05-08,Gastro-entérite
+330,2482,2025-06-24,2025-06-25,Exacerbation d'asthme
+331,2489,2024-02-22,2024-02-29,Exacerbation d'asthme
+332,2496,2023-12-14,2023-12-17,Exacerbation d'asthme
