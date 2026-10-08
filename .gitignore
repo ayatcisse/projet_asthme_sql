@@ -1,4 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 asthme.db
-exercices.md
-anomalies_cles.md
 cours_sql.md
+anomalies_cles.md
+exercices.md
