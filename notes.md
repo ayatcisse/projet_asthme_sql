@@ -11,29 +11,29 @@ La répartition par sexe donnait 8 valeurs au lieu de 2 : c'est ce qui m'a mis s
 
 9 types d'anomalies repérés (récapitulatif dans la requête Q11 de 02\_qualite.sql).
 
-patients
+patients :
 
 5 dates de naissance après la fin de la période (2025-12-31)
 30 sexes mal codés, 6 écritures (f, m, Féminin, femme, Homme, masculin)
 pas de valeur vide, doublons non testables
 
-diagnoses
+diagnoses :
 
 14 codes CIM-10 mal formatés (espaces, minuscules, point absent)
 3 diagnostics datés avant la naissance, liés aux dates de naissance aberrantes
 pas de doublon, pas d'orphelin
 
-treatments
+treatments :
 
 40 end\_date vides (traitement en cours ou fin inconnue), conservées
 15 doublons exacts en trop
 8 end\_date antérieures à start\_date
 
-hospitalizations
+hospitalizations :
 
 6 sorties antérieures à l'admission
 
-visits
+visits :
 
 12 doublons exacts en trop
 6 consultations de patients inexistants
