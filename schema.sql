@@ -1,10 +1,5 @@
 -- Projet : cohorte pédiatrique d'asthme (données synthétiques)
 -- Schéma inspiré de la logique des bases médico-administratives (type SNDS),
--- sans prétendre reproduire le SNDS réel.
---
--- Choix volontaire : pas de contraintes FOREIGN KEY ni CHECK.
--- Les bases médico-administratives brutes ne garantissent pas l'intégrité
--- référentielle, et le contrôle qualité fait partie du projet.
 
 DROP TABLE IF EXISTS visits;
 DROP TABLE IF EXISTS hospitalizations;
