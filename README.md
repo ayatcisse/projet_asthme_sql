@@ -1,5 +1,4 @@
-# Cohorte pédiatrique d'asthme : contrôle qualité et construction de cohorte en SQL
-
+# Cohorte pédiatrique d'asthme
 Projet personnel d'analyse de données de santé visant à mettre en pratique et démontrer
 mes compétences en contrôle qualité, structuration des données et construction de cohortes
 en SQL, dans une logique proche des bases médico-administratives de santé.
