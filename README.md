@@ -36,8 +36,8 @@ dans l'ordre avec DB Browser for SQLite. Les vues créées dans `02_qualite.sql`
 **1. Contrôle qualité.** J'ai trouvé 9 types d'anomalies, 136 lignes concernées au total
 (valeurs manquantes, doublons, dates incohérentes, naissances après la fin de la période, sexe codé de
 6 façons différentes, codes CIM-10 mal formatés, consultations de patients inexistants). Elles sont
-regroupées dans un tableau récapitulatif (`UNION ALL`), puis corrigées ou exclues dans des vues
-`v_*_clean`, sans toucher aux tables d'origine. Après nettoyage : 2 495 patients, 2 092 diagnostics,
+regroupées dans un tableau récapitulatif, puis corrigées ou exclues dans des vues, 
+sans toucher aux tables d'origine. Après nettoyage : 2 495 patients, 2 092 diagnostics,
 784 traitements, 325 hospitalisations, 9 053 consultations. Les 20 écritures distinctes de codes
 de diagnostic sont ramenées à 10 codes.
 
@@ -47,20 +47,7 @@ moins un traitement enregistré et 2 n'en ont aucun.
 **3. Cohorte pédiatrique.** Critère : moins de 18 ans à la date du premier diagnostic d'asthme.
 343 patients : 143 de 0 à 5 ans, 147 de 6 à 11 ans, 53 de 12 à 17 ans.
 
-## Choix méthodologiques
-
-- **Date de référence** pour repérer les naissances "dans le futur" : la fin de la période des données
-  (2025-12-31), et non la date du jour. Avec la date du jour, je ne trouvais qu'1 anomalie sur 5.
-- **Doublons** : je regroupe sur les colonnes métier, sans l'identifiant technique, et je garde la ligne
-  au plus petit identifiant de chaque groupe.
-- **Dates de fin de traitement manquantes** (40 lignes) : je les conserve, car le traitement peut être en
-  cours ou sa fin inconnue. Je n'en calcule pas de durée dans ce projet.
-- **Codes CIM-10** : normalisés (majuscules, sans espace, point après le 3e caractère) avant tout filtre sur J45.
-- **Lignes invalides** (fin avant début, sortie avant admission, naissance après 2025-12-31, consultations
-  sans patient) : exclues des vues. Un patient exclu emporte ses diagnostics, traitements,
-  hospitalisations et consultations.
-- **Âge au diagnostic** : (date du premier diagnostic - date de naissance) / 365,25, avec des seuils
-  ordonnés dans un `CASE WHEN` pour les tranches d'âge.
+Le détail du nettoyage est dans `notes.md`.
 
 ## Limites
 
